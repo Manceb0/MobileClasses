@@ -1,0 +1,31 @@
+name: crypto_tracker
+description: "A new Flutter project for tracking cryptocurrency exchange rates using CoinAPI."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP client para consumir la API REST
+  http: ^1.2.0
+
+  # Íconos estilo Cupertino para iOS
+  cupertino_icons: ^1.0.8
+
+  # Almacenamiento seguro de datos (opcional, por si quieres almacenar API Keys)
+  flutter_secure_storage: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linter actualizado para asegurar buenas prácticas de código
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
